@@ -43,3 +43,12 @@ React Query, a library that makes fetching, caching, synchronizing and updating 
 
 ![edit](https://github.com/thekinv21/react-query/assets/92122363/e908c90f-50c6-4c7f-90c1-3069ee1fc540)
 
+## DEMO
+
+![1](https://github.com/thekinv21/react-query/assets/92122363/f462ee28-d083-4db4-ab3e-8e18810e86a8)
+
+![2](https://github.com/thekinv21/react-query/assets/92122363/11e23634-5c19-4c03-86ed-8722e037ba2b)
+
+
+
+
