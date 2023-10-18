@@ -4,3 +4,9 @@ export interface ITodos {
 	title: string
 	completed: boolean
 }
+
+export interface IEditTodo {
+	userId: number
+	title: string
+	completed: boolean
+}
