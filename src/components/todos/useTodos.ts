@@ -56,7 +56,6 @@ export const useTodos = () => {
 	}
 
 	const [isEdit, setIsEdit] = useState<boolean>(false)
-	const [isAdd, setIsAdd] = useState<boolean>(false)
 
 	return {
 		todos,
@@ -65,8 +64,6 @@ export const useTodos = () => {
 		todoId,
 		isEdit,
 		setIsEdit,
-		isAdd,
-		setIsAdd,
 		handleDeleteTodo
 	}
 }

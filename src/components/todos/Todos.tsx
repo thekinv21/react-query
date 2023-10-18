@@ -2,7 +2,6 @@ import { Button, Table, Tag } from 'antd'
 import { FC } from 'react'
 import { AiOutlineDelete, AiOutlineEdit } from 'react-icons/ai'
 
-import AddTodo from './todo-add-modal/AddTodo'
 import EditTodo from './todo-edit-modal/EditTodo'
 import { useTodos } from './useTodos'
 
@@ -14,8 +13,6 @@ const Todos: FC = () => {
 		setTodoId,
 		isEdit,
 		setIsEdit,
-		isAdd,
-		setIsAdd,
 		handleDeleteTodo
 	} = useTodos()
 
@@ -76,10 +73,6 @@ const Todos: FC = () => {
 				dataSource={todos}
 				columns={columns}
 			/>
-
-			{isAdd && (
-				<AddTodo todoId={todoId} isAddTodo={isAdd} setIdAddTodo={setIsAdd} />
-			)}
 
 			{isEdit && (
 				<EditTodo
