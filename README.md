@@ -1,27 +1,45 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# React-Query
 
-Currently, two official plugins are available:
+React Query, a library that makes fetching, caching, synchronizing and updating server state in React applications easier It is used to improve performance when fetching data from the server. Additionally, it provides performance optimizations such as caching, periodic data refreshes, pagination or lazy loading...
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## React-Query Installation 
 
-## Expanding the ESLint configuration
+* You can easely add react-query for your project 
+* https://tanstack.com/query/v4/docs/react/installation
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+```bash 
+    $ npm i @tanstack/react-query
+    # or
+    $ pnpm add @tanstack/react-query
+    # or
+    $ yarn add @tanstack/react-query
+  
 ```
+    
+## Example how to add react-query for globaly
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+![add react-query](https://github.com/thekinv21/react-query/assets/92122363/af3d47c5-0331-4266-9b05-9d0b2c625065)
+
+  
+## GET http request with react-query
+
+
+![first request](https://github.com/thekinv21/react-query/assets/92122363/10984f7b-0759-4dcc-9186-37c1aaa71bf7)
+
+
+
+  
+## PUT, DELETE http request with react-query
+
+
+![edit](https://github.com/thekinv21/react-query/assets/92122363/0f659a9d-ae45-4a9a-b859-b05d581568bc)
+
+![DELETE](https://github.com/thekinv21/react-query/assets/92122363/ad0f85b1-2f0b-43c5-992d-6ad0ab0f4fc3)
+
+
+## GET BY ID with react-query
+
+![edit](https://github.com/thekinv21/react-query/assets/92122363/e908c90f-50c6-4c7f-90c1-3069ee1fc540)
+
